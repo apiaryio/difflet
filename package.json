@@ -1,17 +1,12 @@
 {
-    "name" : "difflet",
+    "name" : "@apiaryio/difflet",
     "description" : "colorful diffs for javascript objects",
-    "version" : "0.2.3",
+    "version" : "1.0.0",
     "repository" : {
         "type" : "git",
-        "url" : "git://github.com/substack/difflet.git"
+        "url" : "git://github.com/apiaryio/difflet.git"
     },
     "main" : "index.js",
-    "keywords" : [
-        "diff",
-        "object",
-        "compare"
-    ],
     "directories" : {
         "lib" : ".",
         "example" : "example",
@@ -21,7 +16,7 @@
         "test" : "tap test/*.js"
     },
     "dependencies" : {
-        "traverse" : "https://github.com/apiaryio/js-traverse/tarball/master",
+        "@apiaryio/traverse" : "^1.0.0",
         "charm" : "0.0.x",
         "deep-equal" : "0.0.x"
     },
@@ -33,9 +28,7 @@
         "node" : ">=0.4.0"
     },
     "license" : "MIT",
-    "author" : {
-        "name" : "James Halliday",
-        "email" : "mail@substack.net",
-        "url" : "http://substack.net"
+    "publishConfig": {
+        "registry": "https://registry.apiary-internal.com"
     }
 }
