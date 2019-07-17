@@ -1,4 +1,4 @@
-var traverse = require('traverse');
+var traverse = require('@apiaryio/traverse');
 var Stream = require('stream').Stream;
 var charm = require('charm');
 var deepEqual = require('deep-equal');
